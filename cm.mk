@@ -22,6 +22,7 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="jag3gds_global_com-user 5.0.1 5.1.1 LMY48M 2167285 release-keys"
 
 PRODUCT_PROPERTY_OVERRIDES += \
-    persist.radio.multisim.config=dsds
+    persist.radio.multisim.config=dsds \
+    persist.radio.dont_use_dsd=true
 
 $(call inherit-product, vendor/lge/jag3gds/jag3gds-vendor.mk)
