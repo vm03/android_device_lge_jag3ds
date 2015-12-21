@@ -23,6 +23,7 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.radio.multisim.config=dsds \
-    persist.radio.dont_use_dsd=true
+    persist.radio.dont_use_dsd=true \
+    persist.radio.msgtunnel.start=false
 
 $(call inherit-product, vendor/lge/jag3gds/jag3gds-vendor.mk)
